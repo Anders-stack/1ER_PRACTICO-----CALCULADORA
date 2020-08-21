@@ -16,9 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('ver', function () {
-    return view('bienvenido');
-});
+
 Route::get('calculadora', 'CalculadoraController@calculadora');
 
 Route::post('solucion', ['as' => 'calculadora.solucion', 'uses' => 'CalculadoraController@solucion']);

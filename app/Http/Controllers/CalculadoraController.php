@@ -26,7 +26,7 @@ class CalculadoraController extends Controller
             $resultado = $a * $b;
             
         }elseif ($_POST['op'] == "3"){
-            $resultado = $a / $b;
+            $resultado= $a / $b;
             
         }elseif ($_POST['op'] == "4"){
             $resultado=1;
