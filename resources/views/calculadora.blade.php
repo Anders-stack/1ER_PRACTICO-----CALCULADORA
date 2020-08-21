@@ -44,12 +44,14 @@
     
   </head>
 <body>
+<br>
 <div class="container">
       <h2>CALCULADORA SIMPLE</h2>
+      <br>
 <form action="{{ route('calculadora.solucion') }}" method="post" >
     @csrf
     <table border="3">
-    <tr><td><b><label for="a">NUMERO 1</label></b></td><td></td><td><b><label for="b">NUMERO 2</label></b></td></tr>
+    <tr class="info"><td><b><label for="a">NUMERO 1</label></b></td><td></td><td><b><label for="b">NUMERO 2</label></b></td></tr>
     <tr><td><input class="form-control" type="number" name="a" id="a" placeholder="1er_Num"></td>
     <td>
         <select name="op" id="op">
@@ -64,8 +66,8 @@
     </tr>
     </table>
 
-    <button class="btn btn-primary">Calcular</button>
-    
+    <button class="btn btn-primary">Calcular</button>  
 </form>
+</div>
 </body>
 </html>

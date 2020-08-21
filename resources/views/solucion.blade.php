@@ -14,9 +14,9 @@
   <body>
 
     <div class="container">
-      <h1>Solución de esta operación</h1>
+      <h1 class="text-primary">Solución de esta operación</h1>
       
-      <p><h4>El resultado es: {{ $a }}</h4></p>
+      <p><h4><span>El resultado es: {{ $a }}</span></h4></p>
       
       
     </div>
